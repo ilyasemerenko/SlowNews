@@ -61,7 +61,7 @@ body {
 .image {
     float: left;
     height: 200px;
-    margin: 10px ;
+    margin: 10px 10px 0;
 }
 
 .text {
@@ -121,8 +121,7 @@ body {
 }
 
 .archive_upstairs{
-    position: absolute;
-    margin-top: 35px;
+    display: inline-block;
 }
 
 .enroll_btn{
