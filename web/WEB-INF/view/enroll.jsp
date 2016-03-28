@@ -28,9 +28,9 @@
     <div class = "enroll">
         <form method = post>
             <div class = "enroll_form">
-                <p>Username : <input type="username" name="username" placeholder="Username"/></p>
-                <p>Password : <input type="password" name="pwd" placeholder="Password"/></p>
-                <p>Email : <input type="email" name="email" placeholder="name@email.com"/></p>
+                <p class = "text_input">Username : <input type="username" name="username" placeholder="Username"/></p>
+                <p class = "text_input">Password : <input type="password" name="pwd" placeholder="Password"/></p>
+                <p class = "text_input">Email : <input type="email" name="email" placeholder="name@email.com"/></p>
 
                 <input class = "simple_btn" type="submit" value="Submit" />
             </div>

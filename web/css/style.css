@@ -1,6 +1,11 @@
 *{
     box-sizing: border-box;
+    margin:0;
+    padding: 0;
 }
+body {
+
+    font-family: "Segoe UI", sans-serif;}
 
 .header {
     top: 0;
@@ -10,23 +15,24 @@
 }
 
 .header_logo {
+    height: 60px;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 44px;
     letter-spacing: 3px;
     color: white;
     background: #404040;
-    margin-left: 15px;
+    padding-left: 15px;
 }
 
- .header_menu {
-     font-size: 17px;
-     letter-spacing: 1px;
-     list-style-type: none;
-     margin: auto;
-     padding: 0;
-     overflow: hidden;
-     background-color: #333;
- }
+.header_menu {
+    font-size: 15px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
 .menu_item {
     float: left;
@@ -65,10 +71,10 @@
 .news_content {
     width: 700px;
     margin: 20px auto;
+    overflow: hidden;
 }
 
 .wrapper {
-    font-family: "Segoe UI";
     position: relative;
     margin: 0 auto;
     width: 970px;
@@ -82,17 +88,13 @@
 }
 
 .toArchive_btn {
-    width: 700px;
+    width: 100%;
     border: 1px solid transparent;
     cursor: pointer;
-    display: inline-block;
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 0;
     padding: 6px 12px;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
     color: white;
     background: #404040;
 }
@@ -103,7 +105,7 @@
 
 .upstairs{
     display: block;
-    width: 700px;
+    width: 100%;
     height: 30px;
     background: #333;
     padding: 5px;
@@ -125,6 +127,7 @@
 
 .enroll_btn{
     display: inline-block;
+    margin-top: 10px;
     width: 120px;
     height: 30px;
     background: #333;
@@ -147,7 +150,7 @@
     display: inline-block;
     font-size: 14px;
     font-weight: 500;
-    margin-bottom: 0;
+    margin-top: 10px;
     padding: 6px 12px;
     text-align: center;
     vertical-align: middle;
@@ -158,4 +161,8 @@
 
 .simple_btn:hover{
     background-color: #111;
+}
+
+.text_input{
+    margin: 5px;
 }
