@@ -13,7 +13,7 @@ public class ArchiveServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
-        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/newsArchive.jsp");
+        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/WEB-INF/view/newsArchive.jsp");
         try {
             dispatcher.forward(request,response);
         } catch (ServletException e) {

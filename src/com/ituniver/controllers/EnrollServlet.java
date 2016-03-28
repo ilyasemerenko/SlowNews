@@ -13,7 +13,7 @@ public class EnrollServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
-        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/enroll.jsp");
+        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/WEB-INF/view/enroll.jsp");
         try {
             dispatcher.forward(request,response);
         } catch (ServletException e) {

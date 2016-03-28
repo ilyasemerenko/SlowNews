@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+
+.header {
+    top: 0;
+    margin-bottom: 20px;
+    width: 970px;
+    background: #404040;
+}
+
+.header_logo {
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: white;
+    background: #404040;
+    margin-left: 15px;
+}
+
+ .header_menu {
+     font-size: 17px;
+     letter-spacing: 1px;
+     list-style-type: none;
+     margin: auto;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+ }
+
+.menu_item {
+    float: left;
+}
+
+.login_item {
+    float: right;
+}
+
+.menu_link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu_link:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #3399ff;
+}
+
+.image {
+    float: left;
+    height: 200px;
+    margin: 10px ;
+}
+
+.text {
+    padding: 10px;
+}
+
+.news_content {
+    width: 700px;
+    margin: 20px auto;
+}
+
+.wrapper {
+    font-family: "Segoe UI";
+    position: relative;
+    margin: 0 auto;
+    width: 970px;
+}
+
+.afterwords {
+    float: right;
+    font-weight: 600;
+    font-style: oblique;
+    margin:10px;
+}
+
+.toArchive_btn {
+    width: 700px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: white;
+    background: #404040;
+}
+
+.toArchive_btn:hover {
+    background-color: #111;
+}
+
+.upstairs{
+    display: block;
+    width: 700px;
+    height: 30px;
+    background: #333;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.upstairs:hover{
+    background-color: #111;
+}
+
+.archive_upstairs{
+    position: absolute;
+    margin-top: 35px;
+}
+
+.enroll_btn{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    background: #333;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.enroll_btn:hover{
+    background-color: #111;
+}
+
+.simple_btn{
+    width: 120px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: white;
+    background: #333;
+}
+
+.simple_btn:hover{
+    background-color: #111;
+}
